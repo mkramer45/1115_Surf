@@ -1,0 +1,17 @@
+Process for Adding Beaches
+
+1.) Add Beachname to each list of URLs (3)
+
+2.) Refer to 1.1 Beach Naming, add new execute statement for beach
+		-- make sure the ID IN BETWEEN continue the pattern
+		-- ie if last ID range left off with 617, new ID range will start with 617 + 1 ... 618 + 55 ... so ID BETWEEN 618 AND 673
+
+3.) Refer to 1.2 TIMEID
+	-- Now refer to Google Doc: SurfSend_TimeID 
+	https://docs.google.com/spreadsheets/d/1EiG9RUz6fV1xyHbBaqFLBepplQIuwV_ElPLXiTluZlU/edit#gid=0
+	-- Make new column with your beach ... start the first row number with +1 of LAST number used in previous,adjacent column
+		-- If last column = 616, our first row of new column will be 617... drag down all the way.
+		-- Update concat statement (Column O) to contain new column ... regenerate all concats.
+		-- Regenerate all concats in final concat statement (what we'll be using in our script)
+
+4.) Dats it
